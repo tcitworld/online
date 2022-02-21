@@ -44,7 +44,7 @@
 }
 
 .jsdialog.vertical p, .ui-frame-label {
-	margin: 0px;
+	margin: 10px 0 2px;
 	color: var(--color-main-text);
 	font-size: 10px;
 	font-weight: bold;
@@ -70,6 +70,7 @@
 }
 
 .jsdialog.ui-separator.horizontal {
+	display: none;
 	width: 100%;
 	padding-top: 6px;
 	/* border-left: 1px dashed #888; */
